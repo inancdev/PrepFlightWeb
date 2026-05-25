@@ -1,1 +1,138 @@
-init
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PrepFlight — DLR Pilot Aptitude Test Prep</title>
+<meta name="description" content="PrepFlight is a practice app for the six cognitive tests used in the DLR (German Aerospace Center) pilot aptitude exam. iOS and Android.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a2e;
+    --muted: #555;
+    --accent: #2b6cb0;
+    --border: #e2e8f0;
+    --card-bg: #f7fafc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a2e;
+      --fg: #e2e8f0;
+      --muted: #a0aec0;
+      --accent: #63b3ed;
+      --border: #2d3748;
+      --card-bg: #232746;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    color: var(--fg);
+    background: var(--bg);
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+  }
+  header { text-align: center; margin-bottom: 2.5rem; }
+  h1 { font-size: 2.4rem; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); font-size: 1.1rem; margin: 0; }
+  h2 { font-size: 1.4rem; margin-top: 3rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .games { display: grid; gap: 1rem; grid-template-columns: 1fr; margin-top: 1rem; }
+  @media (min-width: 640px) { .games { grid-template-columns: 1fr 1fr; } }
+  .game {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+  }
+  .game h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+  .code { color: var(--accent); font-weight: 700; font-family: ui-monospace, SFMono-Regular, monospace; }
+  .game p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  .links { display: flex; flex-wrap: wrap; gap: 1.25rem; justify-content: center; margin-top: 2rem; font-size: 1rem; }
+  footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; color: var(--muted); font-size: 0.9rem; }
+  .badge {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    font-size: 0.75rem;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }
+  .disclaimer { font-size: 0.9rem; color: var(--muted); margin-top: 2rem; font-style: italic; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>PrepFlight</h1>
+  <p class="tagline">Practice the six cognitive tests of the DLR pilot aptitude exam.</p>
+  <div class="links">
+    <a href="./privacy-policy.html">Privacy Policy</a>
+    <a href="./terms-of-use.html">Terms of Use</a>
+    <a href="mailto:inancdev@gmail.com">Contact</a>
+  </div>
+</header>
+
+<h2>What is PrepFlight?</h2>
+<p>PrepFlight is a mobile app (iOS + Android) that lets you practice the six core cognitive exercises used in the <strong>DLR (Deutsches Zentrum für Luft- und Raumfahrt)</strong> pilot aptitude test — the standard entry exam for Lufthansa, airberlin (historical), and several other European airline cadet programs. Each game ports the timing, scoring, and difficulty progression of the original exam, including a <strong>Realistic mode</strong> that simulates the live test pacing.</p>
+<p>No account required. Local scoring. Free tier includes every game on the easiest setting; paid tiers unlock all difficulties, all settings, and Realistic mode.</p>
+
+<h2>The Six Games</h2>
+<div class="games">
+
+  <div class="game">
+    <h3><span class="code">RMS</span> — Running Memory Span</h3>
+    <p>Listen to 8–30 spoken digits, then type them back <strong>in reverse order</strong>. Tests working memory and auditory recall.</p>
+  </div>
+
+  <div class="game">
+    <h3><span class="code">ROT</span> — Cube Rotation</h3>
+    <p>A cube is announced with a starting face up. 10–16 audio rotation commands follow. Identify which face ends on top. Tests spatial reasoning under audio-only input.</p>
+  </div>
+
+  <div class="game">
+    <h3><span class="code">SKT</span> — Concentration</h3>
+    <p>Triangles flash one at a time, each with a colour, rotation, and dot count. For every triangle, compare two random properties to the previous one. Tests sustained attention.</p>
+  </div>
+
+  <div class="game">
+    <h3><span class="code">MEK</span> — Visual Memory</h3>
+    <p>Memorise 20 image-number pairs presented in shrinking groups (4-4-2-2-2-2-1-1-1-1), then recall the number paired with each image. Tests visual-associative memory.</p>
+  </div>
+
+  <div class="game">
+    <h3><span class="code">VLR</span> — Spatial Orientation</h3>
+    <p>An arrow points left or right. A 12-segment path is then drawn. Count the turns matching the arrow's direction. Tests spatial tracking and counting under load.</p>
+  </div>
+
+  <div class="game">
+    <h3><span class="code">OWT</span> — Perceptual Speed</h3>
+    <p>Eight clock-style instruments appear (circle/rectangle, black/white). Identify the four matching the given criterion and recall their numbers. Tests visual scanning speed.</p>
+  </div>
+
+</div>
+
+<h2>Pricing</h2>
+<ul>
+  <li><strong>Free tier</strong> — every game on its easiest setting, Realistic mode locked.</li>
+  <li><strong>Per-game monthly</strong> — $0.99 / month. Unlocks all difficulties + Realistic mode for one game.</li>
+  <li><strong>All-games monthly</strong> — $3.99 / month. Unlocks everything across all six games.</li>
+  <li><strong>Lifetime</strong> — $19.99 one-time. Everything, permanently.</li>
+</ul>
+
+<p class="disclaimer">PrepFlight is not affiliated with, endorsed by, or sponsored by DLR or any pilot training organisation. The German Aerospace Center, DLR, and any related names or trademarks belong to their respective owners.</p>
+
+<footer>
+  &copy; 2026 Inanc Atil ·
+  <a href="./privacy-policy.html">Privacy</a> ·
+  <a href="./terms-of-use.html">Terms</a> ·
+  <a href="mailto:inancdev@gmail.com">inancdev@gmail.com</a>
+</footer>
+
+</body>
+</html>
