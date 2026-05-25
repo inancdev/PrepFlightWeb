@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — PrepFlight</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a2e;
+    --muted: #555;
+    --accent: #2b6cb0;
+    --border: #e2e8f0;
+    --code-bg: #f7fafc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a2e;
+      --fg: #e2e8f0;
+      --muted: #a0aec0;
+      --accent: #63b3ed;
+      --border: #2d3748;
+      --code-bg: #2d3748;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    color: var(--fg);
+    background: var(--bg);
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.3rem; margin-top: 2.25rem; border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  a { color: var(--accent); }
+  blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    color: var(--muted);
+    background: var(--code-bg);
+  }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+  th { background: var(--code-bg); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+  .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
+  code { background: var(--code-bg); padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.9em; }
+  ul { padding-left: 1.4rem; }
+  li { margin: 0.25rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — PrepFlight</h1>
+<p class="meta">
+  <strong>Last updated:</strong> 2026-05-24<br>
+  <strong>Developer:</strong> Inanc Atil (<a href="mailto:inancdev@gmail.com">inancdev@gmail.com</a>)<br>
+  <strong>App:</strong> PrepFlight (iOS + Android)
+</p>
+
+<blockquote>PrepFlight is the modern successor to the original Pilot's Brain app.</blockquote>
+
+<p>This policy explains what data the PrepFlight mobile application ("the App") handles, how it is used, and the choices you have. The App is operated as a personal project and has no separate company entity.</p>
+
+<hr>
+
+<h2>1. Summary</h2>
+<ul>
+  <li><strong>No user account.</strong> You do not sign up, log in, or provide personal information to use the App.</li>
+  <li><strong>No analytics, no advertising SDKs, no tracking.</strong></li>
+  <li><strong>Game data stays on your device.</strong> Scores and settings are saved locally on your phone.</li>
+  <li><strong>A device identifier is used only to remember your purchase.</strong> This identifier is sent to our purchase processor (RevenueCat) and to the app stores. It is not used for marketing.</li>
+  <li><strong>Purchases are handled by Apple / Google and RevenueCat.</strong> Their own privacy policies apply to that data.</li>
+</ul>
+
+<hr>
+
+<h2>2. What we collect</h2>
+
+<h3>a) On your device only (we never see this)</h3>
+<ul>
+  <li>Game scores (date, score, parameters), stored in <code>AsyncStorage</code>.</li>
+  <li>Game settings (delay, question counts, Realistic mode toggle).</li>
+  <li>Theme preference (light / dark).</li>
+  <li>App version and OS settings used to render the App.</li>
+</ul>
+<p>You can clear all of this at any time from <strong>Account → Reset All Scores</strong>, or by uninstalling the App.</p>
+
+<h3>b) Sent to RevenueCat (our purchase processor)</h3>
+<p>To remember which subscriptions or one-time purchases you own — without requiring you to create an account — the App generates a stable device identifier:</p>
+<ul>
+  <li><strong>iOS:</strong> Identifier for Vendor (IDFV). Reset only if you uninstall every app from this developer.</li>
+  <li><strong>Android:</strong> Android ID (SSAID). Reset only by factory reset.</li>
+</ul>
+<p>This identifier is used as your anonymous user ID inside RevenueCat. RevenueCat receives:</p>
+<ul>
+  <li>The device identifier</li>
+  <li>Your purchase receipts (forwarded from Apple / Google)</li>
+  <li>Basic technical metadata (platform, app version, country code)</li>
+</ul>
+<p>RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy/">https://www.revenuecat.com/privacy/</a></p>
+<p>We do not link this identifier to your name, email, or any other personal information, because we do not collect those.</p>
+
+<h3>c) Sent to Apple / Google (the app stores)</h3>
+<p>When you make a purchase, Apple App Store (iOS) or Google Play Billing (Android) processes the payment. The store handles your billing details, tax information, and refund requests. We never see your full payment information.</p>
+<ul>
+  <li>Apple: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+  <li>Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+
+<hr>
+
+<h2>3. What we do NOT collect</h2>
+<ul>
+  <li>Name, email address, phone number, postal address.</li>
+  <li>Precise location, GPS, Wi-Fi, or Bluetooth scans.</li>
+  <li>Microphone, camera, photo library, or contacts.</li>
+  <li>Advertising identifiers (IDFA / GAID). The App does not request ATT (App Tracking Transparency) consent because it does not track you.</li>
+  <li>Health, biometric, financial, or browsing data.</li>
+  <li>Any data about people other than the App user.</li>
+</ul>
+
+<hr>
+
+<h2>4. How data is used</h2>
+<table>
+  <thead><tr><th>Data</th><th>Purpose</th></tr></thead>
+  <tbody>
+    <tr><td>Local scores &amp; settings</td><td>Let you see your progress and resume your preferred game configuration.</td></tr>
+    <tr><td>Device identifier (in RevenueCat)</td><td>Validate and restore your in-app purchases without requiring an account.</td></tr>
+    <tr><td>Purchase receipts</td><td>Determine which features (per-game, all-access, lifetime) are unlocked.</td></tr>
+  </tbody>
+</table>
+<p>We do <strong>not</strong> use any of this data for advertising, profiling, behavioral analysis, or sale to third parties.</p>
+
+<hr>
+
+<h2>5. Data sharing</h2>
+<p>We share data only with the service providers required to deliver the features you requested:</p>
+<table>
+  <thead><tr><th>Provider</th><th>Data shared</th><th>Purpose</th></tr></thead>
+  <tbody>
+    <tr><td>Apple App Store</td><td>Payment details (handled by Apple), purchase receipts</td><td>Process iOS purchases</td></tr>
+    <tr><td>Google Play Billing</td><td>Payment details (handled by Google), purchase receipts</td><td>Process Android purchases</td></tr>
+    <tr><td>RevenueCat</td><td>Device identifier, receipts, platform</td><td>Subscription state, restore purchases</td></tr>
+  </tbody>
+</table>
+<p>We do not sell or rent any data to anyone.</p>
+
+<hr>
+
+<h2>6. Data retention</h2>
+<ul>
+  <li>Local data lives on your device until you reset scores or uninstall the App.</li>
+  <li>RevenueCat retains your anonymous purchase history for as long as you may need to restore purchases, in accordance with their own retention policy.</li>
+  <li>Apple and Google retain transaction records under their own policies and applicable tax law.</li>
+</ul>
+
+<hr>
+
+<h2>7. Your rights</h2>
+<p>Depending on your country (GDPR for the EU/UK, CCPA/CPRA for California, and similar laws elsewhere), you may have the right to:</p>
+<ul>
+  <li><strong>Access</strong> the data we hold about you. Because we do not collect any personal information, the only data tied to you is the anonymous device identifier inside RevenueCat.</li>
+  <li><strong>Delete</strong> that data. You can do this yourself in two steps:
+    <ol>
+      <li>Uninstall the App — this clears local scores and settings.</li>
+      <li>Email us with your device identifier (visible in <strong>Account</strong> if exposed in a future version, otherwise on request) to have your RevenueCat record deleted.</li>
+    </ol>
+  </li>
+  <li><strong>Restrict or object</strong> to processing. Stop using the App — no further data will be sent.</li>
+  <li><strong>Portability.</strong> Local scores are not exportable in the current version.</li>
+  <li><strong>Withdraw consent.</strong> Same as restriction — stop using the App.</li>
+  <li><strong>Lodge a complaint</strong> with your local data protection authority.</li>
+</ul>
+<p>To exercise any right, email <a href="mailto:inancdev@gmail.com"><strong>inancdev@gmail.com</strong></a>.</p>
+
+<hr>
+
+<h2>8. Children</h2>
+<p>The App is intended for users aged <strong>16 and older</strong>, primarily candidates preparing for the German Aerospace Center (DLR) pilot aptitude test. We do not knowingly collect any data from children under 13 (or under 16 in the EU). If you believe a child has used the App, contact us and we will delete any related records.</p>
+
+<hr>
+
+<h2>9. Security</h2>
+<ul>
+  <li>Local data is stored using the operating system's standard storage APIs.</li>
+  <li>Communication with Apple, Google, and RevenueCat uses HTTPS.</li>
+  <li>No servers operated by us hold personal data, because we do not operate any.</li>
+</ul>
+<p>No transmission over the internet is 100% secure. You use the App at your own risk.</p>
+
+<hr>
+
+<h2>10. International transfers</h2>
+<p>RevenueCat is based in the United States. By using the App, your anonymous identifier and purchase metadata may be transferred to and processed in the United States and other countries where RevenueCat and the app stores operate.</p>
+
+<hr>
+
+<h2>11. Changes to this policy</h2>
+<p>If we change this policy, the "Last updated" date will change and the new version will be available at the same URL referenced from the App's Account screen. Material changes will be highlighted at the top of the policy for at least 30 days.</p>
+
+<hr>
+
+<h2>12. Contact</h2>
+<p>Questions, complaints, or data requests:</p>
+<p><a href="mailto:inancdev@gmail.com"><strong>inancdev@gmail.com</strong></a></p>
+
+</body>
+</html>
