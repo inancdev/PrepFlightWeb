@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Use — PrepFlight</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a2e;
+    --muted: #555;
+    --accent: #2b6cb0;
+    --border: #e2e8f0;
+    --code-bg: #f7fafc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a2e;
+      --fg: #e2e8f0;
+      --muted: #a0aec0;
+      --accent: #63b3ed;
+      --border: #2d3748;
+      --code-bg: #2d3748;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    color: var(--fg);
+    background: var(--bg);
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.3rem; margin-top: 2.25rem; border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  a { color: var(--accent); }
+  blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    color: var(--muted);
+    background: var(--code-bg);
+  }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; text-align: left; vertical-align: top; }
+  th { background: var(--code-bg); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+  .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
+  code { background: var(--code-bg); padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.9em; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 0.25rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Terms of Use — PrepFlight</h1>
+<p class="meta">
+  <strong>Last updated:</strong> 2026-05-24<br>
+  <strong>Developer:</strong> Inanc Atil (<a href="mailto:inancdev@gmail.com">inancdev@gmail.com</a>)<br>
+  <strong>App:</strong> PrepFlight (iOS + Android)
+</p>
+
+<blockquote>PrepFlight is the modern successor to the original Pilot's Brain app.</blockquote>
+
+<p>By downloading, installing, or using the PrepFlight mobile application ("the App"), you agree to these Terms of Use ("Terms"). If you do not agree, do not use the App.</p>
+
+<hr>
+
+<h2>1. Who we are</h2>
+<p>PrepFlight is a personal project operated by <strong>Inanc Atil</strong>. References to "we", "us", and "our" mean Inanc Atil. There is no separate corporate entity.</p>
+
+<hr>
+
+<h2>2. License</h2>
+<p>We grant you a personal, non-exclusive, non-transferable, revocable license to install and use the App on devices you own or control, for your own non-commercial use. You may not:</p>
+<ul>
+  <li>Copy, modify, decompile, reverse-engineer, or create derivative works of the App, except where allowed by applicable law (e.g. legitimate interoperability research).</li>
+  <li>Rent, lease, lend, sell, redistribute, or sublicense the App.</li>
+  <li>Use the App to violate any law or to harm anyone.</li>
+  <li>Bypass, disable, or otherwise interfere with security or access-control features, including the free-tier feature gate and any future digital-rights management.</li>
+</ul>
+<p>This is a license, not a transfer of ownership. We retain all rights to the App.</p>
+
+<hr>
+
+<h2>3. Free tier and in-app purchases</h2>
+<p>The App offers a free tier and paid features:</p>
+<table>
+  <thead><tr><th>Offer</th><th>Type</th><th>Description</th></tr></thead>
+  <tbody>
+    <tr><td>Free tier</td><td>Free</td><td>All 6 games playable on the easiest setting. Realistic mode locked.</td></tr>
+    <tr><td>Per-Game Monthly</td><td>Auto-renewing subscription</td><td>Unlocks all settings and Realistic mode for the selected game.</td></tr>
+    <tr><td>All Games Monthly</td><td>Auto-renewing subscription</td><td>Unlocks all settings and Realistic mode for every game.</td></tr>
+    <tr><td>Lifetime</td><td>One-time purchase</td><td>Unlocks all settings and Realistic mode for every game, permanently.</td></tr>
+  </tbody>
+</table>
+
+<h3>Billing and renewal</h3>
+<ul>
+  <li>Subscriptions are billed through your Apple ID (iOS) or Google account (Android).</li>
+  <li>Subscriptions automatically renew at the end of each billing period unless cancelled at least 24 hours before renewal.</li>
+  <li>The renewal price is the same as your previous billing period, unless the store notifies you of a price change in advance.</li>
+  <li>"Lifetime" means for the operational lifetime of the App. We do not commit to a fixed time period.</li>
+</ul>
+
+<h3>Cancelling and refunds</h3>
+<ul>
+  <li>Manage or cancel your subscription in <strong>App Store → Subscriptions</strong> (iOS) or <strong>Play Store → Payments &amp; subscriptions → Subscriptions</strong> (Android), or via the <strong>Account → Manage Subscription</strong> link in the App.</li>
+  <li>We cannot directly refund a purchase. Refund requests are handled by:
+    <ul>
+      <li>Apple: <a href="https://reportaproblem.apple.com/">https://reportaproblem.apple.com/</a></li>
+      <li>Google: <a href="https://play.google.com/store/account">https://play.google.com/store/account</a></li>
+    </ul>
+  </li>
+  <li>Uninstalling the App does <strong>not</strong> cancel a subscription.</li>
+</ul>
+
+<h3>Restore Purchases</h3>
+<p>The App provides <strong>Restore Purchases</strong> on the Account screen and the paywall. Use this if you reinstall the App or switch to a new device signed in to the same Apple ID / Google account.</p>
+
+<hr>
+
+<h2>4. Free trial of features</h2>
+<p>If we offer an introductory free period for a subscription in a future version, that period will be displayed in the store before you confirm the purchase. You may cancel during the free period in your store settings to avoid being charged.</p>
+
+<hr>
+
+<h2>5. Educational purpose, no guarantee of outcomes</h2>
+<p>The App is a practice and study aid for cognitive tests similar to those used in the <strong>DLR (German Aerospace Center) pilot aptitude test</strong>. It is <strong>not affiliated with, endorsed by, or sponsored by DLR</strong> or any pilot training organisation. The German Aerospace Center, DLR, and any related names or trademarks belong to their respective owners.</p>
+<p>We make no representation that using the App will improve your performance on any actual aptitude test, qualify you for any role, or produce any specific outcome. Decisions about your career or admission to any program are made by third parties under their own criteria.</p>
+
+<hr>
+
+<h2>6. Acceptable use</h2>
+<p>You agree not to:</p>
+<ul>
+  <li>Use the App in any way that violates applicable law or regulation.</li>
+  <li>Attempt to gain unauthorised access to any account, server, or data of the App or its service providers.</li>
+  <li>Use automated means (bots, scripts, scraping) to interact with the App.</li>
+  <li>Misrepresent yourself or attempt to defraud the App, Apple, Google, RevenueCat, or other users.</li>
+</ul>
+
+<hr>
+
+<h2>7. Third-party services</h2>
+<p>The App uses the following third-party services. Their terms apply when you use those services:</p>
+<ul>
+  <li><strong>Apple App Store</strong> — purchase processing on iOS</li>
+  <li><strong>Google Play Billing</strong> — purchase processing on Android</li>
+  <li><strong>RevenueCat</strong> — subscription state management (<a href="https://www.revenuecat.com/terms">https://www.revenuecat.com/terms</a>)</li>
+</ul>
+<p>We are not responsible for the acts or omissions of these third parties.</p>
+
+<hr>
+
+<h2>8. Intellectual property</h2>
+<p>The App, its code, design, audio, artwork, and gameplay structure are owned by Inanc Atil. Game concepts are inspired by publicly known pilot aptitude testing methodologies and a discontinued legacy app from approximately 2015. All trademarks of third parties referenced in the App belong to their respective owners.</p>
+
+<hr>
+
+<h2>9. Disclaimers</h2>
+<p>The App is provided <strong>"as is" and "as available"</strong>, without warranties of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, accuracy, or non-infringement, to the maximum extent permitted by applicable law.</p>
+<p>We do not warrant that:</p>
+<ul>
+  <li>The App will be uninterrupted, error-free, or available at all times.</li>
+  <li>Defects will be corrected.</li>
+  <li>The App will meet your specific requirements or expectations.</li>
+</ul>
+
+<hr>
+
+<h2>10. Limitation of liability</h2>
+<p>To the maximum extent permitted by applicable law, in no event will we be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenues, data, or goodwill, arising from or related to your use of the App.</p>
+<p>Our total cumulative liability for any claim arising from these Terms or your use of the App is limited to the amount you paid us for the App in the <strong>12 months</strong> preceding the event giving rise to the claim, or <strong>USD 20</strong>, whichever is greater.</p>
+<p>Nothing in these Terms excludes or limits liability that cannot be excluded by applicable law, including liability for gross negligence, wilful misconduct, or death or personal injury caused by negligence.</p>
+
+<hr>
+
+<h2>11. Termination</h2>
+<p>You may stop using the App and uninstall it at any time. We may suspend or terminate your access to the App if you breach these Terms or if continued operation becomes impractical for us.</p>
+<p>Your subscription, if any, continues to bill through the store until cancelled in your store settings, regardless of whether your access to the App is terminated. If termination is due to our discontinuation of the App, we will not unfairly retain payments for subscription periods we cannot honour — please contact us if such a situation arises.</p>
+
+<hr>
+
+<h2>12. Changes to the App and these Terms</h2>
+<p>We may update the App and these Terms at any time. Material changes to these Terms will be indicated by an updated "Last updated" date and will be available at the same URL referenced from the App. Continued use of the App after a change means you accept the updated Terms.</p>
+
+<hr>
+
+<h2>13. Governing law</h2>
+<p>These Terms are governed by the laws of the <strong>Republic of Türkiye</strong>, without regard to its conflict-of-laws rules. The courts of Istanbul, Türkiye, have non-exclusive jurisdiction. Nothing in this clause limits mandatory consumer-protection rights you have under the laws of the country where you reside.</p>
+<p>For users in the EU / EEA / UK, mandatory consumer-protection law of your country of habitual residence continues to apply.</p>
+
+<hr>
+
+<h2>14. Apple-specific terms (iOS only)</h2>
+<p>You acknowledge that these Terms are between you and us, not between you and Apple. Apple is not responsible for the App or its contents. In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price; to the maximum extent permitted by applicable law, Apple has no other warranty obligation with respect to the App. Apple and its subsidiaries are third-party beneficiaries of these Terms.</p>
+
+<hr>
+
+<h2>15. Contact</h2>
+<p>Questions, refund disputes that cannot be resolved by Apple / Google, or any other matter relating to these Terms:</p>
+<p><a href="mailto:inancdev@gmail.com"><strong>inancdev@gmail.com</strong></a></p>
+
+</body>
+</html>
